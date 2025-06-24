@@ -7,3 +7,5 @@
 - [ ] feat: add simple router
 - [ ] feat: add database wrapper class
 - [ ] feat: add base controller class
+- [ ] build: add Mithril js
+- [ ] build: add Tailwind
