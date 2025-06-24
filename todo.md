@@ -1,8 +1,9 @@
 ### Tue 24th June
-- [ ] feat: add simple front controller
+- [x] feat: add View class and templates
 
 ### Backlog
 
+- [ ] feat: add simple front controller
 - [ ] feat: add simple router
 - [ ] feat: add database wrapper class
 - [ ] feat: add base controller class
