@@ -6,6 +6,8 @@
 
 ### Backlog
 
+- [ ] feat: add PHP unit
+- [ ] feat: add unit tests
 - [ ] feat: add simple front controller
 - [ ] feat: implement simple router
 - [ ] feat: add database wrapper class
