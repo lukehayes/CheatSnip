@@ -23,6 +23,9 @@ class Router
 	 */
 	public function splitRequestUri() : array
 	{
+		// array_filter is used here to remove the first
+		// index from the array that results from
+		// calling explode() as it is 0.
 		return
 			array_filter(
 				explode('/', $this->uri),
