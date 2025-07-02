@@ -7,6 +7,7 @@
 
 ### Backlog
 
+- [ ] feat: add PHPDI
 - [ ] feat: add unit tests
 - [ ] feat: add simple front controller
 - [ ] feat: implement simple router
