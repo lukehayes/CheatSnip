@@ -1,12 +1,12 @@
-### Thursday 26th June
+### Tuesday 2nd July
 - [ ] feat: add simple router class
+- [x] feat: add PHP unit
 
 ### Tue 24th June
 - [x] feat: add View class and templates
 
 ### Backlog
 
-- [ ] feat: add PHP unit
 - [ ] feat: add unit tests
 - [ ] feat: add simple front controller
 - [ ] feat: implement simple router
