@@ -11,9 +11,9 @@ class Router
 	/** @var string Sections of the REQUEST URI split by '/' char */
 	private $uri_sections;
 
-	public function __construct()
+	public function __construct(string $uri)
 	{
-		$this->uri = $_SERVER['REQUEST_URI'];
+		$this->uri = $uri;
 	}
 
 	/**

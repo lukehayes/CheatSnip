@@ -16,9 +16,7 @@ final class RouterTest extends TestCase
 
     public function testCanSplitRequestUri()
     {
-        $_SERVER['REQUEST_URI'] = 'controller/action';
-
-        $router = new Router();
+        $router = new Router('controller/action');
         $uri_sections = $router->splitRequestUri();
 
         $this->assertContains('controller', $uri_sections);
