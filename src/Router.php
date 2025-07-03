@@ -6,7 +6,7 @@ namespace LDH;
 class Router
 {
 	/** @var string The request URI */
-	public $uri;
+	private $uri;
 
 	/** @var string Sections of the REQUEST URI split by '/' char */
 	private $uri_sections;
