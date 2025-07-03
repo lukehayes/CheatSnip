@@ -22,4 +22,11 @@ final class RouterTest extends TestCase
         $this->assertContains('controller', $uri_sections);
         $this->assertContains('action', $uri_sections);
     }
+
+    public function testCanGetUri()
+    {
+        $router = new Router('controller/action');
+
+        $this->assertEquals($router->getUri(), 'controller/action');
+    }
 }

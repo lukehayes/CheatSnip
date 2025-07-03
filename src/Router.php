@@ -16,6 +16,11 @@ class Router
 		$this->uri = $uri;
 	}
 
+	public function getUri() : string
+	{
+		return $this->uri;
+	}
+
 	/**
 	 * Split the $_SERVER['REQUEST_URI'] by the '/' character
 	 *
