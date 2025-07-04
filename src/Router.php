@@ -7,6 +7,7 @@ class Router
 	/** @var string The request URI */
 	private $uri;
 
+	/** @var array The parsed request uri */
 	private $parsed_uri;
 
 	/** @var string Sections of the REQUEST URI split by '/' char */
@@ -18,18 +19,28 @@ class Router
 		$this->parsed_uri = parse_url($uri);
 	}
 
+	/**
+	 * Get the parsed uri.
+	 *
+	 * @return array
+	 */
 	public function getParsedUri() : array
 	{
 		return $this->parsed_uri;
 	}
 
+	/**
+	 * Get the request uri.
+	 *
+	 * @return string
+	 */
 	public function getUri() : string
 	{
 		return $this->uri;
 	}
 
 	/**
-	 * Split the $_SERVER['REQUEST_URI'] by the '/' character
+	 * Split the REQEUST_URI by the '/' character.
 	 *
 	 * @return array
 	 */
