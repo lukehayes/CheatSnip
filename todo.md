@@ -1,9 +1,10 @@
-### Tuesday 2nd July
-- [ ] feat: add simple router class
-- [x] feat: add PHP unit
+### Friday 4nd July
+- [ ] feat: add parse_url to request uri
 
-### Tue 24th June
-- [x] feat: add View class and templates
+
+### Tuesday 2nd July
+- [x] feat: add simple router class
+- [x] feat: add PHP unit
 
 ### Backlog
 

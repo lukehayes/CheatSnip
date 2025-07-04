@@ -26,7 +26,13 @@ final class RouterTest extends TestCase
     public function testCanGetUri()
     {
         $router = new Router('controller/action');
-
         $this->assertEquals($router->getUri(), 'controller/action');
+    }
+
+    public function testCanParsedUri()
+    {
+        $router = new Router('controller/action');
+
+        $this->assertIsArray($router->getParsedUri());
     }
 }
