@@ -1,4 +1,5 @@
 ### Friday 4nd July
+- [x] feat: add getUriSection()
 - [x] feat: add parse_url to request uri
 
 

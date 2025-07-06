@@ -55,4 +55,16 @@ class Router
 				fn($elem) => !empty($elem)
 			);
 	}
+
+	/**
+	 * Get a section of the URI by key.
+	 *
+	 * @param string $key The key of the array to retieve
+	 */
+	public function getUriSection(string $key)
+	{
+		if (array_key_exists($key, $this->parsed_uri )) {
+			return $this->parsed_uri[$key];
+		}
+	}
 }

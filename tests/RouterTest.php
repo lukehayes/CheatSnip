@@ -35,4 +35,12 @@ final class RouterTest extends TestCase
 
         $this->assertIsArray($router->getParsedUri());
     }
+
+    public function testCanGetUriSection()
+    {
+        $router = new Router('http://localhost:3000/controller/action');
+
+        $this->assertEquals('http', $router->getUriSection('scheme'));
+        $this->assertEquals('/controller/action', $router->getUriSection('path'));
+    }
 }
