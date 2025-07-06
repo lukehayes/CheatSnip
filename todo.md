@@ -1,5 +1,5 @@
 ### Friday 4nd July
-- [ ] feat: add parse_url to request uri
+- [x] feat: add parse_url to request uri
 
 
 ### Tuesday 2nd July
