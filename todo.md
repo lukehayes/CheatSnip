@@ -6,11 +6,11 @@
 ### Tuesday 2nd July
 - [x] feat: add simple router class
 - [x] feat: add PHP unit
+- [x] feat: add unit tests
 
 ### Backlog
 
 - [ ] feat: add PHPDI
-- [ ] feat: add unit tests
 - [ ] feat: add simple front controller
 - [ ] feat: implement simple router
 - [ ] feat: add database wrapper class
