@@ -59,6 +59,13 @@ class Router
 	/**
 	 * Get a section of the URI by key.
 	 *
+	 * Keys that can be used: 'host'
+	 *                        'port'
+	 *                        'scheme'
+	 *                        'user'
+	 *                        'query'
+	 *                        'fragment'
+	 *
 	 * @param string $key The key of the array to retieve
 	 */
 	public function getUriSection(string $key)
